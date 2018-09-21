@@ -8,8 +8,8 @@ import clipboard
 
 print('Deliminate degrees, minutes, seconds and cardinal direction with comma.')
 print('Example: 32,18,144,W')
-lat_deg = input('Latitude in deg, min, sec: ')
-long_deg = input('Longitude in deg, min, sec: ')
+lat_deg = input('Latitude in deg, min, sec, direction: ')
+long_deg = input('Longitude in deg, min, sec, direction: ')
 
 def convert_to_dec(degs, mins, secs, cd):
     '''
